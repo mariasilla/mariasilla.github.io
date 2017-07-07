@@ -167,6 +167,33 @@ time, mark, audio, video {
   height: 100%;
 }
 
+form {
+  max-width: 450px;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+form > div {
+    position: relative;
+}
+
+  div  > label {
+      opacity: 0.3;
+      position: absolute;
+      top: 22px;
+      left: 20px;
+}
+div  > input[type="text"],
+     > input[type="email"],
+     > input[type="password"] {
+       &:focus {
+        & + label {
+          opacity: 0;
+        }
+      }
+    }
+
+
 /*.vid {
   position: fixed;
   bottom: 0%;
