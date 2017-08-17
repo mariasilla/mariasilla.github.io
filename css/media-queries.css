@@ -28,6 +28,11 @@
      margin-top: 279px;
      margin-left: 113px;
    }
+   #aboutmedescr_hidden {
+     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+     color: #111;
+     font-size: 10px;
+   }
    .wrapper{
      margin-left: 82px;
    }
@@ -63,27 +68,52 @@
      margin-top: 279px;
      margin-left: 113px;
    }
+   #aboutmedescr {
+     color: #111;
+     font-size: 10px;
+   }
+   #aboutmedescr_hidden {
+     color: #111;
+     font-size: 10px;
+   }
   .wrapper{
-      margin-left: 82px;
+      margin-left: 87px;
       /*grid-template-columns: 1fr 1fr 1fr;*/
   }
 }
 
 @media screen and (min-width:640px) {
   .wrapper{
-    margin-left: 82px;
+    margin-left: 87px;
+  }
+  #aboutmedescr {
+      color: #111;
+      font-size: 12px;
   }
 }
 
 @media screen and (min-width:768px) {
   .wrapper{
-     margin-left: 82px;
+     margin-left: 87px;
     /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+  }
+  .typewriter{
+    font-size: 30px;
+  }
+  #aboutmedescr {
+      color: #111;
+      font-size: 13px;
   }
 }
 
 @media screen and (min-width:991px) {
-
+  .typewriter{
+    font-size: 38px;
+  }
+   #aboutmedescr {
+       color: #111;
+       font-size: 20px;
+   }
 }
 
 @media screen and (min-width:1200px) {
@@ -93,6 +123,7 @@
       width: 100%; /* Full-width */
       overflow: auto;
       background-color:rgba(204, 204, 204, 0.4);
+      height: 60px;
       /*position: fixed;
       top: 0;*/
   }
@@ -116,7 +147,7 @@
   .active {
       background-color: #029d74;
   }
-  .typewriter {
+  .typewriter{
     text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
     color: #000;
     background-color: transparent;
@@ -128,6 +159,10 @@
   }
   .wrapper{
     margin-left: -3px;
+  }
+  #aboutmedescr {
+      color: #111;
+      font-size: 25px;
   }
 
 }
