@@ -36,6 +36,9 @@
    .wrapper{
      margin-left: 82px;
    }
+   .contact_form {
+     margin: 250px 0 0 87px;
+   }
 }
 
 @media screen and (min-width:375px) {
@@ -90,6 +93,9 @@
       color: #111;
       font-size: 12px;
   }
+  .contact_form {
+    margin: 250px 0 0 160px;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -104,6 +110,9 @@
       color: #111;
       font-size: 13px;
   }
+  .contact_form {
+    margin: 250px 0 0 196px;
+  }
 }
 
 @media screen and (min-width:991px) {
@@ -113,6 +122,9 @@
    #aboutmedescr {
        color: #111;
        font-size: 20px;
+   }
+   .contact_form {
+     margin: 250px 0 0 285px;
    }
 }
 
@@ -163,6 +175,9 @@
   #aboutmedescr {
       color: #111;
       font-size: 25px;
+  }
+  .contact_form {
+    margin: 250px 0 0 473px;
   }
 
 }
